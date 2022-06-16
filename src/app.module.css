@@ -1,0 +1,59 @@
+.app {
+  margin: auto;
+  width: 450px;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.favorite {
+  padding: 0 15px;
+}
+.favorite button {
+  font-size: 20px;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.todo_text {
+  flex: 1;
+}
+
+.todo__selected {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #f5e5ab;
+}
+
+.favorite__btn {
+  color: black;
+}
+
+.default__btn {
+  color: rgb(255, 226, 2);
+}
+
+.actions button {
+  font-size: 20px;
+  color: red;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.actions {
+  padding-right: 10px;
+}

@@ -1,0 +1,17 @@
+.form {
+    display: flex;
+  }
+  .form button {
+    background-color: pink;
+    columns: white;
+    padding: 15px 30px;
+    border: none;
+    margin-left: 15px;
+  }
+  .form input {
+    flex: 1;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    padding-left: 15px;
+  }
+  
